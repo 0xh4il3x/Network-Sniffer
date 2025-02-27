@@ -1,19 +1,24 @@
-🚀 Network Sniffer - Python Packet Analyzer
-A network sniffer built with Python that captures and analyzes network packets in real-time. Supports PCAP export, GeoIP lookup, and packet logging.
+# 🚀 Network Sniffer - Python Packet Analyzer
 
-📌 Features
-✅ Live Packet Capture – Sniffs network traffic using Scapy
-✅ PCAP Export – Saves packets in .pcap format for Wireshark analysis
-✅ GeoIP Lookup – Find the location of source IP addresses using GeoLite2
-✅ Custom Packet Filtering – Capture only TCP, UDP, ICMP, or all packets
-✅ Packet Logging – Saves packet details in output/packets.log
+A network sniffer built with Python that captures and analyzes network packets in real-time. Supports **PCAP export, GeoIP lookup, and packet logging**.
 
+---
 
-🚀 Installation
+## 📌 Features
+✅ **Live Packet Capture** – Sniffs network traffic using **Scapy**  
+✅ **PCAP Export** – Saves packets in `.pcap` format for Wireshark analysis  
+✅ **GeoIP Lookup** – Find the **location of source IP addresses** using **GeoLite2**  
+✅ **Custom Packet Filtering** – Capture only TCP, UDP, ICMP, or all packets  
+✅ **Packet Logging** – Saves packet details in `output/packets.log`  
 
-1️⃣ Clone the Repository
+---
 
-git clone https://github.com/yourusername/network-sniffer.git
+## 🚀 Installation
+
+### **1️⃣ Clone the Repository**
+
+```bash
+git clone https://github.com/Haileamlak1/network-sniffer.git
 cd network-sniffer
 
 
@@ -37,12 +42,6 @@ python sniff.py
 📌 Packets will be logged in output/packets.log and capture.pcap.
 
 
-🔹 Run the Live Dashboard
-
-python web/app.py
-Then open http://localhost:5000 in your browser to view live packets.
-
-
 🛠️ Features in Detail
 
 1️⃣ Packet Capture
@@ -59,22 +58,16 @@ output/capture.pcap
 🔹 Open this file in Wireshark for deeper analysis.
 
 
-3️⃣ Live Web Dashboard
-📌 Captured packets are displayed in real-time in a web browser.
-💡 Uses Flask and WebSockets for instant updates.
 
 4️⃣ GeoIP Lookup
 Detects the city and country of public IP addresses:
 
 TCP Packet: 192.168.1.10 (Addis Ababa, Ethiopia) -> 8.8.8.8 | Src Port: 53421, Dst Port: 443
 
-
 5️⃣ Unit Tests
 Run tests to verify functionality:
+
 pytest tests/
-
-
-
 📌 Dependencies
 All required Python libraries are listed in requirements.txt:
 
@@ -86,20 +79,17 @@ geoip2
 pytest
 
 Install them using:
+
 pip install -r requirements.txt
-
-
-
 🌎 Future Enhancements
 ✅ Add machine learning anomaly detection for network attacks
 ✅ Implement mobile notifications for suspicious activity
 ✅ Build a GUI-based desktop version
 
-
-
 📜 License
 This project is licensed under the MIT License.
 
 👨‍💻 Author
-📌 Haileamlak sahle
+📌 Haileamlak Sahle
 🔗 GitHub: github.com/Haileamlak1
+📧 Email: haileamlak323@email.com
