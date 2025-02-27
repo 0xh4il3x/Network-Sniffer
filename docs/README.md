@@ -17,7 +17,7 @@ A network sniffer built with Python that captures and analyzes network packets i
 
 ### **1️⃣ Clone the Repository**
 
-``bash
+```bash
 git clone https://github.com/Haileamlak1/network-sniffer.git
 cd network-sniffer
 
