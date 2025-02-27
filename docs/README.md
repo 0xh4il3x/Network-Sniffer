@@ -17,7 +17,7 @@ A network sniffer built with Python that captures and analyzes network packets i
 
 ### **1️⃣ Clone the Repository**
 
-```bash
+``bash
 git clone https://github.com/Haileamlak1/network-sniffer.git
 cd network-sniffer
 
@@ -37,7 +37,8 @@ pip install -r requirements.txt
 🎯 Usage
 🔹 Start Packet Sniffing
 
-python sniff.py
+python3 sniff.py
+
 📌 You'll be prompted to choose a packet filter (TCP, UDP, ICMP, or All).
 📌 Packets will be logged in output/packets.log and capture.pcap.
 
