@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Live Network Sniffer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        var socket = io();
+        socket.on('new_packet', function(msg) {
+            var log = document.getElementById("log");
+            log.innerHTML += msg.data + "<br>";
+        });
+    </script>
+</head>
+<body>
+    <h1>Live Network Sniffer</h1>
+    <div id="log"></div>
+</body>
+</html>

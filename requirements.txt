@@ -1,1 +1,6 @@
-scapy==2.4.5
+scapy
+flask
+flask-socketio
+eventlet
+geoip2
+pytest
