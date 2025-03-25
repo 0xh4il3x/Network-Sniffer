@@ -1,6 +1,6 @@
-scapy
-flask
-flask-socketio
-eventlet
-geoip2
-pytest
+scapy==2.5.0
+flask==2.0.1
+flask-socketio==5.1.1
+eventlet==0.33.0
+requests==2.26.0
+pytest==6.2.5
